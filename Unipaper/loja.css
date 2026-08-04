@@ -489,4 +489,15 @@ header .submenu,
     border-color: rgba(255, 0, 0, .24) !important;
 }
 
+#page_home .vitrine .vitrine_cta a {
+    border-radius: 5px;
+    background: #041e41;
+    border: 1px solid #041e41;
+    color: white;
+}
+
+#page_home .vitrine .vitrine_cta a:hover {
+    background: #f2f3f4;
+    color: #041e41;
+}
 
