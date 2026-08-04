@@ -1,0 +1,492 @@
+/* ============================================
+   VARIÁVEL DE COR
+   ============================================ */
+:root{
+    --laranja: #041e41;
+}
+
+.block-slider{
+    margin-top: -43px !important;
+}
+
+/* Navegação acima da navbar */
+header .linha-topo{
+    display: none;
+}
+
+/* Meios de pagamento / fretes abaixo do banner */
+#alerts{
+    display: none;
+}
+
+
+#widget_avaliacoes .itens .item{
+    box-shadow: 0 0 3px var(--laranja);
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.bt-ver{
+    color: #333333;
+}
+.bt-ver:hover{
+    color: var(--laranja) !important;
+}
+
+/* ============================================
+   REDES SOCIAIS
+   ============================================ */
+#base .social a{
+    width: 32px;
+    height: 32px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+#base .social a i,
+#base .social a::before{
+    font-size: 22px !important;
+    line-height: 1;
+}
+
+#base .social a img{
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain;
+    display: block;
+}
+
+/* ============================================
+   LOGIN / FORMULÁRIOS
+   ============================================ */
+.form-control:focus{
+    box-shadow: 0 0 0 .1rem rgba(4, 30, 65, .5) !important;
+}
+
+#central .box-central-usuario .m .links a i{
+    color: var(--laranja);
+}
+
+.cep{
+    background: transparent !important;
+    color: #333333 !important;
+    border: 1px solid #ccc;
+}
+
+.cep::placeholder{
+    color: rgba(0,0,0,.5) !important;
+}
+
+.cep:focus{
+    background: transparent !important;
+    color: #333333 !important;
+    border-color: var(--laranja) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* ============================================
+   COMENTÁRIOS
+   ============================================ */
+.comentarios .btn.btn-light{
+    background: transparent !important;
+    border: 1px solid var(--laranja) !important;
+    border-radius: 8px;
+    color: #333333 !important;
+    transition: .3s;
+}
+
+.comentarios .btn.btn-light:hover{
+    background: var(--laranja) !important;
+    border-color: var(--laranja) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+.comentarios .btn.btn-light:hover i{
+    color: #ffffff !important;
+}
+
+/* ============================================
+   PÁGINA DO PRODUTO
+   ============================================ */
+#produto input.quantidade{
+    border: solid 1px var(--laranja);
+    background: transparent;
+    color: #333333;
+    border-radius: 5px;
+}
+
+#produto .input-actions{
+    border: solid 1px var(--laranja);
+    background: transparent !important;
+}
+
+#produto .input-actions span{
+    color: #333333;
+    background: transparent !important;
+}
+
+#produto .comentarios .b{
+    color: #ffffff;
+    border: solid 1px var(--laranja);
+    border-radius: 10px;
+    background: var(--laranja);
+}
+
+#produto .comentarios .b:hover{
+    color: var(--laranja);
+    background: transparent;
+}
+
+/* ============================================
+   ALERTAS E TEXTOS
+   ============================================ */
+.alert-info{
+    color: #333333;
+    background-color: #fff4ea;
+    border-color: var(--laranja);
+}
+
+#departamentos .cln.p .listing a.active{
+    color: #faca07 !important;
+}
+
+.breadcrumb-item.active{
+    color: #666666;
+}
+
+.text-dark{
+    color: #212121 !important;
+}
+
+.text-muted{
+    color: #6c757d !important;
+}
+
+.text-info{
+    color: #ccc !important;
+}
+
+.text-danger{
+    color: #ff0000 !important;
+}
+
+.text-success{
+    color: var(--laranja) !important;
+}
+
+a.text-success:hover{
+    color: var(--laranja) !important;
+}
+
+/* ============================================
+   ORDENAÇÃO (SELECT)
+   ============================================ */
+.orderby{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: var(--laranja);
+    color: #fff;
+    border: 1px solid var(--laranja);
+    border-radius: 6px;
+    padding: 8px 35px 8px 12px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+.orderby option,
+.orderby option:hover,
+.orderby option:checked{
+    background: var(--laranja) !important;
+    color: #fff !important;
+}
+
+select option{
+    color: #333333 !important;
+}
+
+/* ============================================
+   FRETE
+   ============================================ */
+.frete_calculando{
+    background: var(--laranja) !important;
+    border: 1px solid var(--laranja) !important;
+    color: #fff !important;
+}
+
+#result_frete_cart .frete-opcao,
+.result_frete_cart .frete-opcao{
+    border: solid 1px var(--laranja);
+}
+
+.frete-opcao:hover{
+    border-color: var(--laranja) !important;
+}
+
+/* ============================================
+   DIVERSOS
+   ============================================ */
+.loading .c{
+    background-color: #ffffff !important;
+    color: #333333 !important;
+}
+
+.sweet-alert .sa-button-container .btn.btn-success{
+    background-color: var(--laranja) !important;
+    border-color: var(--laranja) !important;
+}
+
+.btn.btn-secondary{
+    background-color: var(--laranja);
+    color: #ffffff;
+}
+
+#finish.finalizado .message-item .b,
+#finish-mobile.finalizado .message-item .b{
+    color: #212121 !important;
+}
+
+#finish.finalizado .icon-check,
+#finish-mobile.finalizado .icon-check{
+    background-color: #1aaa3b;
+    color: #ffffff;
+}
+
+#avaliacoes .itens .item{
+    box-shadow: 0 0 3px var(--laranja);
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.nota #text{
+    color: #333333 !important;
+}
+
+/* ============================================
+   LOGO
+   ============================================ */
+#btLogo{
+    width: 100% !important;
+    max-width: 630px !important;
+    height: 140px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    display: block !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+header,
+header .navbar,
+header .logo,
+header .navbar-brand{
+    overflow: visible !important;
+    max-height: none !important;
+    height: auto !important;
+}
+
+header .logo,
+header .navbar-brand{
+    pointer-events: none !important;
+}
+
+header .logo #btLogo,
+header .navbar-brand #btLogo,
+#btLogo{
+    pointer-events: auto !important;
+}
+
+header .navbar,
+header .navbar-nav,
+header nav,
+header .menu,
+#departamentos,
+.menu-departamentos{
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+header .dropdown-menu,
+header .submenu,
+#departamentos .listing{
+    z-index: 1000 !important;
+}
+
+@media (max-width: 768px){
+    #btLogo{
+        max-width: 220px !important;
+        height: 55px !important;
+    }
+}
+
+/* ============================================
+   VITRINE WBUY - BOTÃO ÚNICO NO RODAPÉ
+   ============================================ */
+
+/* Card do produto vira coluna flex */
+.vitrine .item,
+.produtos .item,
+.listagem .item{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    position: relative !important;
+    padding-bottom: 0 !important;
+}
+
+/* Colunas da vitrine com altura igual */
+.vitrine .row,
+.produtos .row,
+.listagem .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.vitrine .row > [class*="col-"],
+.produtos .row > [class*="col-"],
+.listagem .row > [class*="col-"]{
+    display: flex;
+}
+
+/* Remove o botão "Olhar" */
+.item .botoes .b_olhar{
+    display: none !important;
+}
+
+/* Anula o top:200px injetado pelo WBuy */
+.item .botoes{
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    margin: auto 0 0 0 !important;
+    width: 100% !important;
+    padding: 12px 16px 16px !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    float: none !important;
+}
+
+/* Botão Comprar largura total */
+.item .botoes .b_acao{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100% !important;
+    margin: 0 !important;
+    background: var(--laranja) !important;
+    color: #ffffff !important;
+    border: 1px solid var(--laranja) !important;
+    border-radius: 50px;
+    padding: 12px 16px !important;
+    font-weight: 600;
+    text-align: center;
+    transition: .3s;
+}
+
+.item .botoes .b_acao:hover{
+    background: transparent !important;
+    color: var(--laranja) !important;
+}
+
+.item .botoes .b_acao i{
+    margin: 0 !important;
+}
+
+/* Blocos que não devem esticar */
+.item .variacoes,
+.item .cores,
+.item .more{
+    flex-shrink: 0;
+}
+
+/* Card de Produto */
+.produtos .item {
+  transition: transform 0.6s ease; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.produtos .item:hover {
+  transform: scale(1.05);
+}
+
+.vitrine .row, .produtos .row, .listagem .row {
+    align-items: center;
+}
+
+/* Aviso de Produto não encontrado */
+.alert-info {
+    color: var(--laranja);
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+/* Botão aplicar filtro */
+.btn-float button {
+    background-color: #041e41;
+    border-radius: 5px;
+}
+
+#departamentos {
+    padding-bottom: 20px !important;
+}
+
+#central .box-central-usuario .c #dados .newsletter input[type=checkbox]:checked {
+    background-color: #041e41;
+}
+
+#frmCartFrete .cep {
+  border: none !important;
+}
+.suspended-cart .content .drop-footer .botoes a.bt-finalizar {
+    background-color: #041e41;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #041e41;
+}
+
+.suspended-cart .content .drop-footer .botoes a {
+    border: solid 1px #071933;
+    color: #ffffff;
+    background-color: #071933;
+    border-radius: 5px;
+}
+
+/*Melhorando o visual do card*/
+.produtos .item .more {
+    display: none;
+}
+
+.produtos .item .variacoes {
+    display: none;
+}
+
+.produtos .item .cores {
+	display:none;
+}
+
+#produto .variacoes .list .item.sem_estoque, #produto .variacoes-adicionais .list .item.sem_estoque, #produto .campos_adicionais .list .item.sem_estoque
+ {
+    cursor: not-allowed !important;
+    background-color: #ff070759 !important;
+    color: #ff0000 !important;
+    border-color: rgba(255, 0, 0, .24) !important;
+}
+
+
