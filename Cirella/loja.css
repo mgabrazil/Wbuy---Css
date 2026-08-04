@@ -1,0 +1,106 @@
+header .linha-topo{
+    display: none;
+}
+
+#produto.produto_look .b_mais {
+    background-color: #1a3552;
+
+}
+
+#slider {
+    margin-top: -43px;
+}
+
+.btn-light {
+   color: #1a3552;
+}
+
+#alerts .central {
+    display: none;
+}
+
+.btn-light {
+    color: #ffffff;
+	background: #1a3552;
+}
+
+.btn-light:hover {
+    color: #ffffff;
+	background: #2c4056;
+}
+
+
+
+
+#produto .comentarios .b {
+	background: #1a3552;
+    color: #ffffff;
+	border-radius: 5px !important;
+}
+
+#produto .comentarios .b:hover {
+	background: #2c4056;
+    color: #ffffff;
+}
+#produto .botoes .bt-comprar.ok {
+    background-color: #2c4056 !important;
+}
+
+#produto .botoes .bt-go-carrinho {
+    background-color: var(--detalhes_carrinho_fundo);
+    color: var(--detalhes_carrinho_texto);
+}
+
+#central .box-central-usuario .c #dados .form-control, #central .box-central-usuario .c #dados .form-select {
+    background-color: #f6f3ea;
+    border: solid 1px #1a3552 !important;
+}
+
+.form-control:focus{
+	color: #2c4056;
+    box-shadow: 0 0 0 .1rem rgb(26 53 82 / 15%);
+}
+
+#central .box-central-usuario .c #dados .newsletter input[type=checkbox]:checked {
+    background-color: #2c4056;
+}
+
+#finish .cart-review .drop-list .item .thumb .badge, #finish-mobile .cart-review .drop-list .item .thumb .badge {
+    border-radius: 50% !important;
+}
+
+.text-primary{
+	color: #cba25e !important;
+}
+a.text-primary:hover{
+    color: #2c4056 !important;
+}
+
+
+frete-opcao:hover{
+		border-color:  #cba25e !important;
+}
+
+#result_frete_cart .frete-opcao:hover .seletor::after, #result_frete_cart .frete-opcao.active .seletor::after, .result_frete_cart .frete-opcao:hover .seletor::after, .result_frete_cart .frete-opcao.active .seletor::after {
+    background-color: #2c4056;
+}
+
+#departamentos .cln.p .listing a.active {
+    color: #cba25e !important;
+}
+
+.alert-info {
+    color: #1a3552;
+    background-color: #f6f3ea;
+    border-color: #f6f3ea;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2c4056;
+}
+
+
+#produto .input-actions span {
+    background-color: #f6f3ea;
+    color: #1a3552;
+}
