@@ -1,0 +1,451 @@
+.block-slider{
+	margin-top: -43px !important;
+}
+
+/* Opções de navegações - Home, Fale Conosco acima da navbar */
+header .linha-topo{
+	display: none;
+}
+/* ----------------------------------------------- */
+
+/* Meios de pagamentos e Fretes da Loja - Abaixo do Banner */
+#alerts{
+	display: none;
+}
+/*---------------------------------------------------------- */
+
+label{
+	color: #ffffff;
+}
+.vitrine h2{
+	padding-top: 70px !important;
+}
+
+#widget_avaliacoes .itens .item {
+    box-shadow: 0 0 3px #fb791d;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.bt-ver{
+	color: #ccc;
+}
+.bt-ver:hover{
+	color: #fb791d !important;
+}
+
+
+/* Ajuste de tamanho dos icones de Redes Sociais */
+#base .social a {
+    width: 32px;
+    height: 32px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+}
+
+#base .social a i,
+#base .social a::before {
+    font-size: 22px !important;
+    line-height: 1;
+}
+
+#base .social a img {
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain;
+    display: block;
+}
+/*  ------------------------------------------------ */
+
+/* Input Login*/
+.form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(251, 121, 29, .15) !important;
+}
+#bt_login_facebook:hover, #bt_login_google:hover{
+	background-color: #fb791d;
+}
+
+.bt-login-global:hover {
+    color: #FFFFFF !important;
+}
+
+
+#central .box-central-usuario .m .links a i {
+    color: #fb791d;
+}
+
+.cep{
+    background: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #fb791d !important;
+}
+
+#carrinho .calc-frete input.cep {
+  border: none !important;
+}
+
+.cep::placeholder{
+    color: rgba(0,0,0,.5) !important;
+}
+
+.cep:focus{
+    background: transparent !important;
+    color: #ffffff !important;
+    border-color: #fd791d !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.comentarios .btn.btn-light{
+    background: transparent !important;
+    border: 1px solid #fd791d !important;
+    border-radius: 8px;
+    color: #ffffff !important;
+    transition: .3s;
+}
+
+.comentarios .btn.btn-light:hover{
+    background: #fd791d !important;
+    border-color: #fd791d !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+.comentarios .btn.btn-light:hover i{
+    color: #ffffff !important;
+}
+
+#produto input.quantidade {
+    border: solid 1px #fd791d;
+	background: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#produto .input-actions {
+    border: solid 1px #fd791d;
+	background: transparent !important;
+}
+#produto .input-actions span {
+    color: #ffffff;
+	background: transparent !important;
+}
+
+#produto .comentarios .b {
+    color: #ffffff;
+	border: solid 1px #fd791d;
+	border-radius: 10px;
+	background: #fd791d;
+}
+
+#produto .comentarios .b:hover {
+    color: #fd791d;
+	background: transparent;
+}
+
+.alert-info {
+    color: #ffffff;
+    background-color: #fff4ea;
+    border-color: #fd791d;
+}
+
+#departamentos .cln.p .listing a.active {
+    color: #fd791d !important;
+}
+
+
+.breadcrumb-item.active {
+    color: #666666;
+}
+
+body span{
+	color: #ffffff;
+}
+body p{
+	color: #ffffff;
+}
+
+.orderby{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: #fd791d;
+    color: #fff;
+    border: 1px solid #fd791d;
+    border-radius: 6px;
+    padding: 8px 35px 8px 12px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+}
+
+.orderby option{
+    background: #fd791d !important;
+    color: #fff !important;
+}
+
+.orderby option:hover{
+    background:#fd791d !important;
+    color:#fff !important;
+}
+
+.orderby option:checked{
+    background:#fd791d !important;
+    color:#fff !important;
+}
+
+
+.frete_calculando {
+    background: #fb791d !important;
+    border: 1px solid #fb791d !important;
+    color: #fff !important;
+}
+
+
+#result_frete_cart .frete-opcao, .result_frete_cart .frete-opcao {
+    border: solid 1px #fb791d;
+}
+
+.frete-opcao:hover{
+		border-color: #fb791d !important;
+}
+
+select option {
+    color: #ffffff !important;
+}
+
+
+.loading .c {
+    background-color: #000 !important;
+	color: #ffffff !important;
+}
+
+
+.sweet-alert .sa-button-container .btn.btn-success {
+    background-color: #fd791d !important;
+    border-color: #fd791d !important;
+}
+
+#finish.finalizado .message-item .b, #finish-mobile.finalizado .message-item .b {
+    color: #212121 !important;
+}
+
+.text-dark {
+    color: #ffffff !important;
+}
+#finish.finalizado .icon-check, #finish-mobile.finalizado .icon-check {
+    background-color: #1aaa3b;
+    color: #ffffff;
+}
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-info {
+    color: #ffffff !important;
+}
+
+
+.text-danger {
+    color: #ff0000 !important;
+}
+
+.btn.btn-secondary {
+    color: #ffffff !important;
+	background: #fb791d !important;
+}
+
+.text-success {
+    color: #fd791d !important;
+}
+
+a.text-success:hover {
+    color: #fd791d !important;
+}
+
+
+#avaliacoes .itens .item {
+    box-shadow: 0 0 3px #fb791d;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.nota #text{
+    color: #ffffff !important;
+}
+
+.btn-float button {
+    background-color: #fd791d;
+    color: #fff;;
+}
+
+.item p{
+	color: #ccc !important;
+}
+
+#pedidos .btn-success,
+#pedidos a.btn-success {
+  background-color: #fd791d;
+  border-color: #fd791d;
+  color: #fff;
+}
+
+#pedidos .btn-success:hover,
+#pedidos .btn-success:focus,
+#pedidos .btn-success:active {
+  background-color: #e56a14;  /* tom um pouco mais escuro */
+  border-color: #e56a14;
+  color: #fff;
+}
+
+
+#central .box-central-usuario .c #dados .form-control, #central .box-central-usuario .c #dados .form-select {
+    background-color: #121212;
+    border: solid 1px #fd791d;
+	color: #ffffff;
+}
+
+#central .box-central-usuario .c #dados .newsletter span {
+    color: #ffffff;
+}
+
+#central .box-central-usuario .c #dados .newsletter input[type=checkbox]:checked {
+    background-color: #fd791d;
+}
+
+#produto .detalhes-parcelamento {
+	color: #fd791d;
+}
+
+.marca a{
+	color: #fd791d;
+}
+
+#produto .variacoes .list .item.sem_estoque, #produto .variacoes-adicionais .list .item.sem_estoque, #produto .campos_adicionais .list .item.sem_estoque {
+    background-color: #ff00007a;
+    color: #ffffff;
+	cursor:not-allowed;
+}
+
+.alert-danger {
+    color: #ffffff;
+    background-color: #f8d7da26;
+    border-color: #f5c6cb;
+}
+
+.alert-danger a {
+    color: #fb791d;
+}
+
+#finish .text-danger {
+  color: #00a650 !important;
+}
+
+.produtos .item .produto_indisponivel {
+    background: #ff02065c;
+}
+
+#produto .produto_indisponivel span {
+    background-color: #ff02065c;
+    color: #ffffff;
+}
+
+.bt {
+    background-color: #fd791d;
+    color: #ffffff;
+	border-radius: 5px;
+}
+
+.bt:hover{
+    background-color: #e56a14;
+    color: #ffffff;
+}
+
+.page_home .cores,
+.page_home .variacoes,
+.page_home .parcelamento,
+.page_home .more {
+    display: none;
+}
+
+#departamentos .cores,
+#departamentos .variacoes,
+#departamentos .parcelamento,
+#departamentos .more {
+    display: none;
+}
+
+.produtos .item .produto {
+    margin-bottom: 0px; 
+}
+
+.alert-info {
+    background-color: #121212;
+}
+
+.cep.form-control::placeholder {
+    color: #ccc !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fb791d;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #cccccc8a;
+}
+
+
+#checkout-v3 #cliente-endereco-frete .frete-opcao .seletor {
+    background-color: #ffffff00;
+}
+
+#checkout-v3 #cliente-endereco-frete .frete-opcao.active .seletor {
+    background-color: #fb791d;
+}
+
+.close {
+    color: inherit;
+    background: #ff0000;
+    border-radius: 5px;
+}
+
+article.texto a {
+    color: #fd791d !important;
+}
+
+article.texto a:hover {
+    color: #e56a12 !important;
+}
+
+article.texto h2, h3, h4 {
+    color: #ccc !important;
+	font-weight: bold;
+}
+
+
+#form .bt-enviar {
+    background-color: #fd791d;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.text-primary {
+    color: #fb791d!important;
+}
+
+a.text-primary:hover {
+    color: #fb791d!important;
+}
+
+a.text-primary:focus {
+    color: #fb791d!important;
+}
+
+.badge{
+	border-radius: 50% !important;
+}
