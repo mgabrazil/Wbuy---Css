@@ -449,3 +449,24 @@ a.text-primary:focus {
 .badge{
 	border-radius: 50% !important;
 }
+
+.cont{
+	background: #000 !important;
+	color: #ffffff !important;
+	border: 1px solid #fd791d !important;
+}
+.cont .b {
+    border-radius: 5px;
+    background-color: #fd791d !important;
+	color: #ffffff !important;
+}
+
+.cont .btn-reject {
+    border-radius: 5px;
+    background-color: #c76723 !important;
+	color: #ffffff !important;
+}
+
+#lgpd a{
+	color: #ffffff !important;
+}
