@@ -14,11 +14,10 @@ header .linha-topo{
     display: none;
 }
 
-/* Meios de pagamento / fretes abaixo do banner */
-#alerts{
+/* Meios de pagamento / fretes abai
     display: none;
 }
-
+ */
 
 #widget_avaliacoes .itens .item{
     box-shadow: 0 0 3px var(--laranja);
@@ -32,6 +31,19 @@ header .linha-topo{
 .bt-ver:hover{
     color: var(--laranja) !important;
 }
+
+
+.bt{
+	color: #fff;
+    border: solid 1px var(--laranja);
+    border-radius: 10px;
+    background: var(--laranja);
+}
+.bt:hover{
+	color: var(--laranja);
+    background: #f2f3f4;
+}
+
 
 /* ============================================
    REDES SOCIAIS
@@ -274,7 +286,7 @@ select option{
    ============================================ */
 #btLogo{
     width: 100% !important;
-    max-width: 630px !important;
+    max-width: 155px !important;
     height: 140px !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
@@ -393,7 +405,7 @@ header .submenu,
     background: var(--laranja) !important;
     color: #ffffff !important;
     border: 1px solid var(--laranja) !important;
-    border-radius: 50px;
+    border-radius: 50px  !important;
     padding: 12px 16px !important;
     font-weight: 600;
     text-align: center;
@@ -499,5 +511,89 @@ header .submenu,
 #page_home .vitrine .vitrine_cta a:hover {
     background: #f2f3f4;
     color: #041e41;
+}
+
+
+#lgpd .cont .b {
+    border-radius: 5px !important;
+    background-color: #041e41 !important;
+    color: #fff !important;
+}
+
+#lgpd .cont .btn-reject {
+    border-radius: 5px !important;
+    background-color: #041e41 !important;
+    color: #fff !important;
+}
+
+.produtos .item .produto_indisponivel{
+    border-radius: 50px;
+}
+
+#finish .cart-review .drop-list .item .thumb .badge, #finish-mobile .cart-review .drop-list .item .thumb .badge {
+    border-radius: 50% !important;
+}
+
+.wb-share .wb-share-item a {
+    color: #ffffff !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #041e41;
+}
+
+#page_home .vitrine .titulo {
+    margin-top: 25px;
+}
+
+#finish .text-danger {
+  color: #28a745 !important; /* troque pela cor que quiser */
+}
+.countdown span{
+	background: #007bff !important;
+}
+
+#finish .btn-success, #finish-mobile .btn-success {
+    background: #041e41 !important;
+
+}
+/* Aumenta a logo no checkout - Desktop */
+#finish header h1 img.img-fluid {
+  max-width: 180px !important;
+  max-height: 120px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Aumenta a logo no checkout - Mobile */
+@media (max-width: 768px) {
+  #finish header h1 img.img-fluid {
+    max-width: 140px !important;
+    max-height: 60px !important;
+  }
+	
+    header .promo .first {
+        font-size: 16px !important;
+    }
+
+    header .promo .second {
+        font-size: 14px !important;
+    }	
+}
+
+#mod-popup .mod-cont .wrapper h4 {
+    text-align: center;
+}
+
+#mod-popup .mod-cont .msg-rodape {
+    text-align: center;
+}
+
+/* Preço promocional nos cards */
+.text-success,
+.preco-promocional,
+.valor-promocional,
+.preco .promocional {
+    color: #28a745 !important;
 }
 
